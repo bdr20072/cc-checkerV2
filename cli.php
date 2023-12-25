@@ -13,7 +13,7 @@ require_once "function/settings.php";
 echo banner();
 echo banner2();
 enterlist:
-echo "\n\n [$BL+$WH]$BL Enter your list $WH($DEF eg:$YL list.txt$WH )$GR >> $WH";
+echo "\n\n [$BL+$WH]$BL Enter your list $WH($DEF eg:$YL bdr.txt$WH )$GR >> $WH";
 $listname = trim(fgets(STDIN));
 if(empty($listname) || !file_exists($listname)) {
  echo " [!] Your Fucking list not found [!]".PHP_EOL;
